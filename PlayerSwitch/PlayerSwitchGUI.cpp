@@ -24,9 +24,9 @@ void PlayerSwitch::RenderSettings() {
     ImGui::Separator();
 
     OtherSettingsText();
-    SwitchBoostCheckbox();
     SwitchVelocityCheckbox();
     SwitchRotationCheckbox();
+    SwitchBoostCheckbox();
     ImGui::Separator();
 
     DrawTextDevNote();
@@ -150,22 +150,6 @@ void PlayerSwitch::OtherSettingsText() {
 }
 
 /*
- * Checkbox for switing boost
- */
-void PlayerSwitch::SwitchBoostCheckbox() {
-    CVarWrapper enableCvar = cvarManager->getCvar("playerswitch_switch_boost");
-    if (!enableCvar) { return; }
-
-    bool enabled = enableCvar.getBoolValue();
-    if (ImGui::Checkbox("Enable boost switching", &enabled)) {
-        enableCvar.setValue(enabled);
-    }
-    if (ImGui::IsItemHovered()) {
-        ImGui::SetTooltip("Enable/Disable boost switching");
-    }
-}
-
-/*
  * Checkbox for switching velocity
  */
 void PlayerSwitch::SwitchVelocityCheckbox() {
@@ -189,13 +173,30 @@ void PlayerSwitch::SwitchRotationCheckbox() {
     if (!enableCvar) { return; }
 
     bool enabled = enableCvar.getBoolValue();
-    if (ImGui::Checkbox("Enable rotation switching", &enabled)) {
+    if (ImGui::Checkbox("Enable car rotation switching", &enabled)) {
         enableCvar.setValue(enabled);
     }
     if (ImGui::IsItemHovered()) {
         ImGui::SetTooltip("Enable/Disable rotation switching");
     }
 }
+
+/*
+ * Checkbox for switing boost
+ */
+void PlayerSwitch::SwitchBoostCheckbox() {
+    CVarWrapper enableCvar = cvarManager->getCvar("playerswitch_switch_boost");
+    if (!enableCvar) { return; }
+
+    bool enabled = enableCvar.getBoolValue();
+    if (ImGui::Checkbox("Enable boost switching", &enabled)) {
+        enableCvar.setValue(enabled);
+    }
+    if (ImGui::IsItemHovered()) {
+        ImGui::SetTooltip("Enable/Disable boost switching");
+    }
+}
+
 
 /*
  * Draws the dev notes

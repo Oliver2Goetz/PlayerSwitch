@@ -29,9 +29,9 @@ public:
 	bool isSamePlayer(std::string id_string_p1, std::string id_string_p2, std::string name_p1, std::string name_p2);
 
 	void switchLocation(CarWrapper car_p1, CarWrapper car_p2);
-	void switchBoost(CarWrapper car_p1, CarWrapper car_p2);
 	void switchVelocity(CarWrapper car_p1, CarWrapper car_p2);
 	void switchRotation(CarWrapper car_p1, CarWrapper car_p2);
+	void switchBoost(CarWrapper car_p1, CarWrapper car_p2);
 
 	// Constans
 	const int TIME_DIFFERENCE_MIN = 1;
@@ -57,8 +57,8 @@ public:
 	void DynamicEnableCheckbox();
 	void DynamicDifferenceSlider();
 	void OtherSettingsText();
-	void SwitchBoostCheckbox();
 	void SwitchVelocityCheckbox();
 	void SwitchRotationCheckbox();
+	void SwitchBoostCheckbox();
 	void DrawTextDevNote();
 };

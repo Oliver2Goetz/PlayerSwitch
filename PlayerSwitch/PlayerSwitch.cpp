@@ -116,9 +116,9 @@ void PlayerSwitch::switchPlayers() {
 	if (!car_p2) { return; }
 
 	switchLocation(car_p1, car_p2);
-	switchBoost(car_p1, car_p2);
 	switchVelocity(car_p1, car_p2);
 	switchRotation(car_p1, car_p2);
+	switchBoost(car_p1, car_p2);
 }
 
 /*

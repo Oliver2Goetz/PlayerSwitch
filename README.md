@@ -11,7 +11,7 @@ PlayerSwitch is a Rocket League Plugin which switches the location of 2 players 
 
 ### Installing the Plugin
 
-You can download the Plugin from the official Bakkesmod-Plugin Website [here](https://bakkesplugins.com/plugins/view/271)
+You can download the Plugin from the official Bakkesmod-Plugin Website [here](https://bakkesplugins.com/plugins/view/287)
 
 # Configuration
 

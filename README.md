@@ -35,12 +35,14 @@ You can download the Plugin from the official Bakkesmod-Plugin Website [here](ht
 | Dynamic time (min-max) in seconds | A minimum and maximum value between which the switch randomly happens |
 
 # Other settings
+
 | Setting | Description |
 | ------- | ----------- |
 | Enable velocity switching | Switches the speed of the players (recommended) |
 | Enable car rotation switching | Switched the rotation of the players (recommended) |
 | Enable boost switching | Switches the boost of the players |
 
+# Example of my recommended settings (dynamic)
 ![configuration](https://github.com/Oliver2Goetz/PlayerSwitch/blob/9622afd1d6291cd571d9f585c32a1893341c2bd1/.github/images/playerswitch_menu.png)
 
 ## Community

@@ -1,6 +1,6 @@
-# CarSize
+# PlayerSwitch
 
-CarSize is a Rocket League Plugin which allows you to scale your car in private matches smaller and larger. This Plugin needs bakkesmod in order to run.
+PlayerSwitch is a Rocket League Plugin which switches the location of 2 players after x seconds.
 
 ## Installation
 

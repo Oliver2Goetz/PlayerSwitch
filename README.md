@@ -39,7 +39,7 @@ You can download the Plugin from the official Bakkesmod-Plugin Website [here](ht
 | Setting | Description |
 | ------- | ----------- |
 | Enable velocity switching | Switches the speed of the players (recommended) |
-| Enable car rotation switching | Switched the rotation of the players (recommended) |
+| Enable car rotation switching | Switches the rotation of the players (recommended) |
 | Enable boost switching | Switches the boost of the players |
 
 ### Example of my recommended settings (dynamic)
